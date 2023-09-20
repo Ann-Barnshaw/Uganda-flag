@@ -1,0 +1,45 @@
+body {
+    background-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flag {
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: -257px;
+}
+.topcolor {
+    background-color: black;
+    height: 50px;
+}
+.middlecolor {
+    background-color: yellow;
+    height: 50px;
+}
+.bottomcolor {
+    background-color: red;
+    height: 50px;
+}
+.wheelpart {
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    right: 10rem;
+    top: 6rem;
+    background-image: url(crested\ crane.png);
+    background-size: cover;
+   }
+.container {
+    display: flex;
+}
